@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" href="NUST-logo-1-1024x1024.png" type="image/x-icon">
+    <title>NUST TRIVIA HIGH SCORES</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="end">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 class="end-text">Enter Your name <b>To save your Score!</b></h2>
+                <input type="text" placeholder="Enter Your Name" name="playerName">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>SAVE</button>
+            </form>
+            <br> <br> <br> <br>
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="/" class="btn">Go Home</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
